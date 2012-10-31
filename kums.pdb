@@ -18630,7 +18630,7 @@ CARD 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:ModificationDate>1317191849</a:ModificationDate>
 <a:SourceTextOffset>(188, 546)</a:SourceTextOffset>
 <a:DestinationTextOffset>(-189, -546)</a:DestinationTextOffset>
-<a:Rect>((-26787,21745), (-1845,24595))</a:Rect>
+<a:Rect>((-26787,21745), (-1844,24595))</a:Rect>
 <a:ListOfPoints>((-3700,22539),(-26787,24595))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16711680</a:LineColor>
@@ -18676,7 +18676,7 @@ CARD 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:CenterTextOffset>(24, 0)</a:CenterTextOffset>
 <a:SourceTextOffset>(-517, 20)</a:SourceTextOffset>
 <a:DestinationTextOffset>(518, -20)</a:DestinationTextOffset>
-<a:Rect>((-12011,22454), (2313,39975))</a:Rect>
+<a:Rect>((-12010,22454), (2314,39975))</a:Rect>
 <a:ListOfPoints>((-6725,39975),(-3550,22454))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16711680</a:LineColor>
@@ -19104,7 +19104,7 @@ TableTriggers 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:Code>AGENT</a:Code>
 <a:CreationDate>1313744837</a:CreationDate>
 <a:Creator>Administrator</a:Creator>
-<a:ModificationDate>1351274222</a:ModificationDate>
+<a:ModificationDate>1351274271</a:ModificationDate>
 <a:Modifier>Administrator</a:Modifier>
 <a:EndScript>create sequence seq_logostics increment by 1  start  with  1 nomaxvalue  nocycle  nocache;
 commit;</a:EndScript>
@@ -19365,16 +19365,6 @@ commit;</a:EndScript>
 <a:DataType>INTEGER</a:DataType>
 </o:Column>
 <o:Column Id="o509">
-<a:ObjectID>A6509113-84D3-4C32-B54B-6D231667AE8F</a:ObjectID>
-<a:Name>更新时间</a:Name>
-<a:Code>UPDATE_TIME</a:Code>
-<a:CreationDate>1313744837</a:CreationDate>
-<a:Creator>Administrator</a:Creator>
-<a:ModificationDate>1350080031</a:ModificationDate>
-<a:Modifier>Administrator</a:Modifier>
-<a:DataType>DATE</a:DataType>
-</o:Column>
-<o:Column Id="o510">
 <a:ObjectID>8BF4180B-9409-46E1-A575-CDE950530779</a:ObjectID>
 <a:Name>直销商级别</a:Name>
 <a:Code>DIRECT_LEVEL_ID</a:Code>
@@ -19384,7 +19374,7 @@ commit;</a:EndScript>
 <a:Modifier>Administrator</a:Modifier>
 <a:DataType>INTEGER</a:DataType>
 </o:Column>
-<o:Column Id="o511">
+<o:Column Id="o510">
 <a:ObjectID>92FAF69F-FEC7-492B-8AE7-103EF89C9BBF</a:ObjectID>
 <a:Name>忠诚度</a:Name>
 <a:Code>LOYAL_INDEX</a:Code>
@@ -19394,7 +19384,7 @@ commit;</a:EndScript>
 <a:Modifier>Administrator</a:Modifier>
 <a:DataType>INTEGER</a:DataType>
 </o:Column>
-<o:Column Id="o512">
+<o:Column Id="o511">
 <a:ObjectID>3161FB4C-0784-4165-9A8A-F81423EAD3FC</a:ObjectID>
 <a:Name>亲密度</a:Name>
 <a:Code>FRIEND_INDEX</a:Code>
@@ -19404,7 +19394,7 @@ commit;</a:EndScript>
 <a:Modifier>Administrator</a:Modifier>
 <a:DataType>INTEGER</a:DataType>
 </o:Column>
-<o:Column Id="o513">
+<o:Column Id="o512">
 <a:ObjectID>9A86B3DC-BEAD-4D07-A1BA-0072F0E6E7A5</a:ObjectID>
 <a:Name>资产评级</a:Name>
 <a:Code>ASSET_INDEX</a:Code>
@@ -19414,7 +19404,7 @@ commit;</a:EndScript>
 <a:Modifier>Administrator</a:Modifier>
 <a:DataType>INTEGER</a:DataType>
 </o:Column>
-<o:Column Id="o514">
+<o:Column Id="o513">
 <a:ObjectID>9941DE08-F6BB-4DB5-A314-BD100F53B089</a:ObjectID>
 <a:Name>紧密度</a:Name>
 <a:Code>TIGHT_INDEX</a:Code>
@@ -19424,7 +19414,7 @@ commit;</a:EndScript>
 <a:Modifier>Administrator</a:Modifier>
 <a:DataType>INTEGER</a:DataType>
 </o:Column>
-<o:Column Id="o515">
+<o:Column Id="o514">
 <a:ObjectID>4B5B55C4-3C15-45BF-B3FF-C432525C6F9E</a:ObjectID>
 <a:Name>专业能力</a:Name>
 <a:Code>SPECIAL_INDEX</a:Code>
@@ -19434,7 +19424,7 @@ commit;</a:EndScript>
 <a:Modifier>Administrator</a:Modifier>
 <a:DataType>INTEGER</a:DataType>
 </o:Column>
-<o:Column Id="o516">
+<o:Column Id="o515">
 <a:ObjectID>0A7FE6F8-3874-455D-AECC-2810C0E9317A</a:ObjectID>
 <a:Name>HABIT_ID</a:Name>
 <a:Code>HABIT_ID</a:Code>
@@ -19443,6 +19433,16 @@ commit;</a:EndScript>
 <a:ModificationDate>1350080031</a:ModificationDate>
 <a:Modifier>Administrator</a:Modifier>
 <a:DataType>INTEGER</a:DataType>
+</o:Column>
+<o:Column Id="o516">
+<a:ObjectID>A6509113-84D3-4C32-B54B-6D231667AE8F</a:ObjectID>
+<a:Name>更新时间</a:Name>
+<a:Code>UPDATE_TIME</a:Code>
+<a:CreationDate>1313744837</a:CreationDate>
+<a:Creator>Administrator</a:Creator>
+<a:ModificationDate>1350080031</a:ModificationDate>
+<a:Modifier>Administrator</a:Modifier>
+<a:DataType>DATE</a:DataType>
 </o:Column>
 </c:Columns>
 <c:Keys>
@@ -21007,7 +21007,7 @@ commit;</a:EndScript>
 <o:Column Ref="o555"/>
 </c:Object1>
 <c:Object2>
-<o:Column Ref="o510"/>
+<o:Column Ref="o509"/>
 </c:Object2>
 </o:ReferenceJoin>
 </c:Joins>
@@ -21256,7 +21256,7 @@ commit;</a:EndScript>
 <o:Column Ref="o527"/>
 </c:Object1>
 <c:Object2>
-<o:Column Ref="o516"/>
+<o:Column Ref="o515"/>
 </c:Object2>
 </o:ReferenceJoin>
 </c:Joins>

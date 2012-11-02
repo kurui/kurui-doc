@@ -1,9 +1,0 @@
-select * from agent_event;
-select * from company c  where c.type=2
-order by c.finance_count desc,c.update_time desc;
-
-
-select * from agent_contact;
-
-
-
